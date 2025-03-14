@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="MainViewController" customModule="Trivia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fvv-bt-3lf">
+                                <rect key="frame" x="167" y="86" width="80" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="THIS IS THE QUESTION" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UB5-Zv-CYu">
+                                <rect key="frame" x="87" y="158" width="240" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WhN-4p-tFl">
+                                <rect key="frame" x="165" y="433" width="84" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Answer 1"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6kd-E0-DoL">
+                                <rect key="frame" x="165" y="493" width="84" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Answer 2"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xvn-Rb-DJ3">
+                                <rect key="frame" x="164" y="555" width="86" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Answer 3"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BzE-vW-xLh">
+                                <rect key="frame" x="164" y="615" width="86" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Answer 4"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Xvn-Rb-DJ3" secondAttribute="trailing" constant="164" id="4me-b3-ZYq"/>
+                            <constraint firstItem="Xvn-Rb-DJ3" firstAttribute="top" secondItem="6kd-E0-DoL" secondAttribute="bottom" constant="28" id="6Ge-Ao-DyP"/>
+                            <constraint firstItem="6kd-E0-DoL" firstAttribute="top" secondItem="WhN-4p-tFl" secondAttribute="bottom" constant="29" id="7vg-qF-lbq"/>
+                            <constraint firstItem="WhN-4p-tFl" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="165" id="9Sf-2n-8oB"/>
+                            <constraint firstItem="BzE-vW-xLh" firstAttribute="top" secondItem="Xvn-Rb-DJ3" secondAttribute="bottom" constant="28" id="B9R-dR-6LA"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="WhN-4p-tFl" secondAttribute="trailing" constant="165" id="LP4-ax-oi1"/>
+                            <constraint firstItem="BzE-vW-xLh" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="164" id="LXE-xS-WGa"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="6kd-E0-DoL" secondAttribute="trailing" constant="165" id="LaT-VB-lT1"/>
+                            <constraint firstItem="Xvn-Rb-DJ3" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="164" id="Or3-rj-D68"/>
+                            <constraint firstItem="6kd-E0-DoL" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="165" id="g1o-Nf-5vU"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="BzE-vW-xLh" secondAttribute="trailing" constant="164" id="hIJ-VS-4f0"/>
+                            <constraint firstItem="WhN-4p-tFl" firstAttribute="top" secondItem="UB5-Zv-CYu" secondAttribute="bottom" constant="147" id="psf-7c-px0"/>
+                            <constraint firstItem="UB5-Zv-CYu" firstAttribute="top" secondItem="Fvv-bt-3lf" secondAttribute="bottom" constant="50" id="uLf-fK-Cas"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Answer1Button" destination="WhN-4p-tFl" id="rFt-3Q-YJ2"/>
+                        <outlet property="Answer2Button" destination="6kd-E0-DoL" id="USs-Z7-l6C"/>
+                        <outlet property="Answer3Button" destination="Xvn-Rb-DJ3" id="a3p-LK-xQK"/>
+                        <outlet property="Answer4Button" destination="BzE-vW-xLh" id="gZ8-Cz-a2o"/>
+                        <outlet property="QuestionLabel" destination="Fvv-bt-3lf" id="wsc-H5-T3Q"/>
+                        <outlet property="QuestionTextView" destination="UB5-Zv-CYu" id="KhN-aE-H0c"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-17.39130434782609" y="47.544642857142854"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
