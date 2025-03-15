@@ -2,17 +2,19 @@
 //  Question.swift
 //  Trivia
 //
-//  Created by Andry on 3/12/25.
+//  Created by Andry on 3/14/25.
 //
 
-class Question {
-    let text: String
-    let options: [String]
-    let correctAnswerIndex: Int
-    
-    init(text: String, options: [String], correctAnswerIndex: Int) {
-        self.text = text
-        self.options = options
-        self.correctAnswerIndex = correctAnswerIndex
-    }
+import Foundation
+
+import UIKit
+
+struct Question {
+    let questionNumber: String
+    let questionText: String
+    let ans1: String
+    let ans2: String
+    let ans3: String
+    let ans4: String
+    let correctAnswer: String
 }

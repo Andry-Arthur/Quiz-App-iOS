@@ -1,0 +1,27 @@
+
+/* Class = "UIButton"; configuration.title = "Button"; ObjectID = "FCH-Pt-P45"; */
+"FCH-Pt-P45.configuration.title" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "FCH-Pt-P45"; */
+"FCH-Pt-P45.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Phc-V7-rAt"; */
+"Phc-V7-rAt.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "Button"; ObjectID = "TzR-2W-YFc"; */
+"TzR-2W-YFc.configuration.title" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "TzR-2W-YFc"; */
+"TzR-2W-YFc.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ZEI-72-dc1"; */
+"ZEI-72-dc1.text" = "Label";
+
+/* Class = "UILabel"; text = "Trivia"; ObjectID = "sAL-BC-17e"; */
+"sAL-BC-17e.text" = "Trivia";
+
+/* Class = "UIButton"; configuration.title = "Button"; ObjectID = "vxz-oH-Ve0"; */
+"vxz-oH-Ve0.configuration.title" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vxz-oH-Ve0"; */
+"vxz-oH-Ve0.normalTitle" = "Button";
